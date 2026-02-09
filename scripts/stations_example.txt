@@ -1,0 +1,9 @@
+# Example stations file
+# Format: USAF-WBAN (one per line)
+# Lines starting with # are ignored
+
+725030-14732
+722950-23174
+725300-14734
+722430-12960
+722780-23183
