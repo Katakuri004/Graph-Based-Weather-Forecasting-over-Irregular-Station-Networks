@@ -214,6 +214,42 @@ See `REBUTTALS_AND_ALTERNATIVES.md` for:
 
 ---
 
+## Final Results (2026-02-10)
+
+### Best Model Performance
+
+| Horizon | Model | RMSE | R² |
+|---------|-------|------|-----|
+| 1h | Hybrid GNN | **0.647°C** | 0.990 |
+| 6h | Hybrid GNN | **1.464°C** | 0.948 |
+| 12h | Hybrid GNN | **2.151°C** | 0.889 |
+| 24h | GNN v1 | **2.454°C** | 0.880 |
+
+### Key Achievements
+
+- Built complete weather forecasting pipeline with 9.3M observations
+- Demonstrated spatial graph information improves forecasts at all horizons
+- Hybrid GNN beats persistence baseline even at 1-hour (0.647°C vs 0.772°C)
+- Learned spatial weights confirm hypothesis: spatial info more important at longer horizons
+
+### Models Trained
+
+| Model | Approach | Best At |
+|-------|----------|---------|
+| Persistence | Naive baseline | None |
+| Climatology | Historical average | None |
+| LSTM | Per-station temporal | None |
+| GNN v1 | Full graph convolution | 24h |
+| Hybrid GNN | LSTM + spatial attention | 1h, 6h, 12h |
+
+### Production Recommendation
+
+Use ensemble: Hybrid GNN for 1h-12h, GNN v1 for 24h.
+
+See `NOTEBOOK_FINDINGS.md` for detailed analysis.
+
+---
+
 ## Notes
 
 - All code will be in Jupyter notebooks (.ipynb) for visualization and analysis
