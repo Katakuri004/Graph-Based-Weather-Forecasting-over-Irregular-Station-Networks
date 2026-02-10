@@ -1,0 +1,95 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Problem Statement}{1}{subsection.1.2}\protected@file@percent }
+\citation{kipf2017semi}
+\citation{velivckovic2018graph}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Contributions}{2}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Theoretical Background}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Graph Neural Networks}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Graph Convolutional Networks}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Attention Mechanisms for Graphs}{2}{subsection.2.3}\protected@file@percent }
+\citation{weatherbench}
+\citation{graphcast}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Spatio-Temporal Modeling}{3}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Related Work}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Traditional Weather Forecasting}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Machine Learning for Weather}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Graph Neural Networks for Spatial Data}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Methodology}{3}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Graph Construction}{3}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}k-Nearest Neighbor Edges}{4}{subsubsection.4.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Edge Weights}{4}{subsubsection.4.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Model Architectures}{4}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}GNN v1: Full Graph Convolution}{4}{subsubsection.4.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Hybrid GNN: Efficient Spatio-Temporal Fusion}{4}{subsubsection.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Training Configuration}{4}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Training Hyperparameters}}{4}{table.caption.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Loss Function}{5}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Evaluation Metrics}{5}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Data Overview}{5}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Data Source}{5}{subsection.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Dataset Statistics}}{5}{table.caption.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Variables}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Meteorological Variables}}{6}{table.caption.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Data Splits}{6}{subsection.5.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Train/Validation/Test Split}}{6}{table.caption.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Feature Engineering}{6}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Graph Statistics}{6}{subsection.5.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces k-NN Graph Properties (k=8)}}{6}{table.caption.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Observations}{6}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Baseline Model Performance}{6}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Baseline Model Results (Test Set RMSE in °C)}}{7}{table.caption.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}GNN v1 Results}{7}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces GNN v1 vs LSTM (Test Set RMSE in °C)}}{7}{table.caption.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Learned Spatial Weights}{7}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Learned Spatial-Temporal Fusion Weights}}{7}{table.caption.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Results}{8}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Final Model Comparison}{8}{subsection.7.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Complete Model Comparison (Test Set RMSE in °C)}}{8}{table.caption.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}R-squared Comparison}{8}{subsection.7.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Model Comparison (Test Set R²)}}{8}{table.caption.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Best Model per Horizon}{8}{subsection.7.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Optimal Model Selection}}{8}{table.caption.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Key Achievements}{8}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Figures}{9}{section.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Baseline model comparison showing RMSE across forecast horizons. Persistence excels at 1h due to temperature autocorrelation, while LSTM outperforms at longer horizons.}}{9}{figure.caption.12}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:baseline}{{1}{9}{Baseline model comparison showing RMSE across forecast horizons. Persistence excels at 1h due to temperature autocorrelation, while LSTM outperforms at longer horizons}{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces GNN v1 comparison with baselines. The spatial graph model excels at 24-hour forecasts, achieving 2.454°C RMSE with R²=0.880.}}{9}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:gnn}{{2}{9}{GNN v1 comparison with baselines. The spatial graph model excels at 24-hour forecasts, achieving 2.454°C RMSE with R²=0.880}{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Hybrid GNN results showing superior performance at 1-12h horizons. The model achieves 0.647°C RMSE at 1h, beating even the persistence baseline.}}{9}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:hybrid}{{3}{9}{Hybrid GNN results showing superior performance at 1-12h horizons. The model achieves 0.647°C RMSE at 1h, beating even the persistence baseline}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Multi-horizon LSTM results showing training curves and performance across all forecast horizons.}}{10}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:advanced}{{4}{10}{Multi-horizon LSTM results showing training curves and performance across all forecast horizons}{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Hybrid GNN architecture combining temporal LSTM encoding with attention-based spatial aggregation and learnable fusion.}}{10}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:architecture}{{5}{10}{Hybrid GNN architecture combining temporal LSTM encoding with attention-based spatial aggregation and learnable fusion}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Discussion}{10}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Why Spatial Information Matters}{10}{subsection.9.1}\protected@file@percent }
+\citation{graphcast}
+\citation{weatherbench}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Architecture Trade-offs}{11}{subsection.9.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Comparison with Related Work}{11}{subsection.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Data Efficiency Analysis}{11}{subsection.9.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Impact of Training Sample Size}}{11}{table.caption.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10}Limitations}{12}{section.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}Data Limitations}{12}{subsection.10.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}Methodological Limitations}{12}{subsection.10.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.3}Computational Limitations}{12}{subsection.10.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.4}Future Work}{12}{subsection.10.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11}Conclusion}{12}{section.11}\protected@file@percent }
+\bibcite{kipf2017semi}{1}
+\bibcite{velivckovic2018graph}{2}
+\bibcite{hochreiter1997long}{3}
+\bibcite{noaa_isd}{4}
+\bibcite{pytorch_geometric}{5}
+\bibcite{graphcast}{6}
+\bibcite{weatherbench}{7}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Implementation Details}{13}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Software Stack}{13}{subsection.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Code Availability}{13}{subsection.A.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Reproducibility}{14}{subsection.A.3}\protected@file@percent }
+\gdef \@abspage@last{14}
